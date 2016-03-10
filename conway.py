@@ -35,9 +35,9 @@ def update(frameNum, img, grid, N):
 			if grid[i, j] == ON:
 				if (total < 2) or (total > 3):
 					newGrid[i, j] = OFF
-				else:
-					if total == 3:
-						newGrid[i, j] = ON
+			else:
+				if total == 3:
+					newGrid[i, j] = ON
 	# update data
 	img.set_data(newGrid)
 	grid[:] = newGrid[:]
