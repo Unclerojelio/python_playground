@@ -1,3 +1,12 @@
+"""
+playlist.py
+Description: Playing with iTunes Playlists.
+From the book, "Python Playground"
+Author: Mahesh Venkitachalam
+Website: electronut.in
+Modified by: Roger Banks (roger_banks@mac.com)
+"""
+
 import re, argparse
 import sys
 from matplotlib import pyplot

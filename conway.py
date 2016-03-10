@@ -1,3 +1,11 @@
+"""
+conway.py 
+A simple Python/matplotlib implementation of Conway's Game of Life.
+From the book, "Python Playground"
+Original Author: Mahesh Venkitachalam
+Modified by: Roger Banks (roger_banks@mac.com)
+"""
+
 import sys, argparse
 import numpy as np
 import matplotlib.pyplot as plt
